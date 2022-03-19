@@ -14,6 +14,11 @@ Output: 2 4
 Explanation: The sum of elements 
 from 2nd position to 4th position 
 is 12.
+
+C++ || Sliding window || O(n) time complexity || O(1) space complexity
+
+Iterate over the array and keep adding the next element to the window while sum (here temp) is less than or equal to s(required sum). When temp becomes greater 
+than required sum, then we should remove the elements from the start of the window.
 */ 
 
 vector<int> subarraySum(int arr[], int n, long long s)
