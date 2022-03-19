@@ -16,7 +16,9 @@ from 2nd position to 4th position
 is 12.
 */ 
 
-//temp is current sum, j is start of window and i is end of window.
+vector<int> subarraySum(int arr[], int n, long long s)
+    {
+    //temp is current sum, j is start of window and i is end of window.
         long long temp=0;
         int i=0,j=0;
         while(i<n){
