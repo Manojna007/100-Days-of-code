@@ -1,2 +1,1 @@
-# 100-Days-of-code
-C++ coding journey
+GFG, LEETCODE, INTERVIEWBIT, CODESTUDIO
